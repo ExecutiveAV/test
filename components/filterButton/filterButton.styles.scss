@@ -1,0 +1,19 @@
+.filterButton {
+    display: flex;
+    position: relative;
+
+    &__content {
+
+        &__text {
+            position: absolute;
+            font-size: 32px;
+            right: 47px;
+        }
+
+        &__arrow {
+            position: absolute;
+            top: 16px;
+            right: 12px;
+        }
+    }
+}

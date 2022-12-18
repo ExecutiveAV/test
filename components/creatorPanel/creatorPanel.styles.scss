@@ -1,0 +1,20 @@
+.creatorPanel {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+
+    &__initialQuestionButton {
+        margin-top: 86px;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+
+    & .carousel {
+        width: 100%;
+        text-align: center;
+    }
+
+}

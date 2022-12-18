@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GillSans;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url('../../public/fonts/GillSans-Light.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+}

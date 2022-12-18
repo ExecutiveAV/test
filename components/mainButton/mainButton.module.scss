@@ -1,0 +1,18 @@
+.mainButton {
+    width: 214px;
+    height: 58px;
+    background-color: #212D4E;
+    display: inline-flex;
+    border-radius: 10px;
+
+    .content {
+        font-size: 32px;
+        text-transform: uppercase;
+        margin: auto;
+        color: #FFF;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

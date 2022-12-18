@@ -1,0 +1,24 @@
+.popUpFooter {
+    border-top: 1px #d9d9d9 solid;
+    margin-left: -20px;
+    display: inline-flex;
+    margin-top: 30px;
+
+    &__button {
+        margin-top: 8px;
+        margin-bottom: 5px;
+        font-family: 'GillSans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #4D89F7;
+        cursor: pointer;
+    }
+
+    .cancel {
+        margin-left: auto;
+    }
+
+    .add {
+        margin-left: 14px;
+        margin-right: 22px;
+        font-weight: bold;
+    }
+}

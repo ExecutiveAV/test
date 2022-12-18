@@ -1,0 +1,23 @@
+.portalInput {
+    display: inline-flex;
+    flex-direction: column;
+    height: min-content;
+    margin: 10px 0 0;
+    max-width: 265px;
+
+    &__title {
+        font-family: 'GillSans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: #000;
+        margin-right: auto;
+    }
+
+    &__input, &__input:focus-visible {
+        height: 100%;
+        width: 100%;
+        background-color: #ECECEC;
+        border: none;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,59 @@
+.bodyTitle {
+    width: 100%;
+    display: inline-flex;
+    
+
+    &__title {
+        height: 40px;
+        display: inline-block;
+        color: #fff;
+        background-color: #959595;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 14px;
+    }
+
+    & .day {
+        min-width: 47px;
+        flex: 1;
+    }
+
+    & .date {
+        min-width: 79px;
+        flex: 1;
+    }
+
+    & .all {
+        min-width: 474px;
+        width: 100%;
+        flex: 6;
+        display: inline-flex;
+        padding: 0;
+    }
+
+    & .qty {
+        min-width: 44px;
+        width: 100%;
+    }
+
+    & .position {
+        min-width: 60px;
+        width: 100%;
+    }
+    
+    & .tech {
+        min-width: 153px;
+        width: 100%;
+    }
+
+    & .time {
+        min-width: 136px;
+        width: 100%;
+    }
+
+    & .hrs {
+        min-width: 81px;
+        width: 100%;
+    }
+}

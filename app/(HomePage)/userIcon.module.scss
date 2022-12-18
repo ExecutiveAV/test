@@ -1,0 +1,16 @@
+.userIcon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: inline-flex;
+    margin: 20px auto auto;
+    cursor: pointer;
+
+
+    .initials {
+        font-size: 32px;
+        text-align: center;
+        margin: auto;
+    }
+}
